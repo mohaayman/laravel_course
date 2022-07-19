@@ -22,3 +22,7 @@ Route::get('/about',function()
     return 'contact us';
 });
 
+
+Route::get('/about',function(){
+    return 'about';
+});
